@@ -1,0 +1,12 @@
+
+.field {
+  width: 100%;
+  height: 80vh;
+  border-bottom: 3px black groove;
+  position: relative;
+}
+
+.field__ball {
+  position: absolute;
+  cursor: pointer;
+}

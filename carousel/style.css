@@ -1,0 +1,38 @@
+
+.carousel {
+  padding: 1em 3em 1em;
+  background-color: #e46ff8;
+  border-radius: 1em;
+  position: relative;
+  width: 390px;
+}
+.gallery{
+  overflow: hidden;
+  width: 390px;
+  position: relative;
+}
+
+.images {
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  transition: transform .5s;
+  transform: translateX();
+}
+.arrow  {
+  border-radius: 60%;
+  border: 1px solid #00ff00;
+  outline: none;
+  cursor: pointer;
+}
+.prev{
+  position: absolute;
+  transform: translate(-100%, 0);
+}
+
+li {
+  display: inline-block;
+}
+li img {
+  display: block;
+}
